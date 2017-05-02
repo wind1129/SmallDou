@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_movie_hot"
+            android:icon="@drawable/hot"
+            android:title="电影榜单" />
+        <item
+            android:id="@+id/nav_movie"
+            android:icon="@drawable/movie"
+            android:title="电影" />
+
+    </group>
+
+    <item android:title="系统">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/setting"
+                android:title="设置" />
+        </menu>
+    </item>
+
+</menu>

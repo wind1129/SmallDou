@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <com.example.wind.smalldou.widget.CompatNestedScrollView
+        android:id="@+id/f_moviedetail_nested"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <include layout="@layout/include_item_movie_detail"/>
+
+    </com.example.wind.smalldou.widget.CompatNestedScrollView>
+
+    <RelativeLayout
+        android:id="@+id/rl_title_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent">
+        <ImageView
+            android:id="@+id/iv_title_head_bg"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            android:scaleType="fitXY"
+            android:visibility="gone"/>
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/title_tool_bar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorTransparent"
+            app:contentInsetStart="0.0dp"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        </android.support.v7.widget.Toolbar>
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+    />
+
+</FrameLayout>

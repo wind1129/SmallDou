@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">"小豆"</string>
+    <string name="first_toolbar_name">"电影榜单"</string>
+    <string name="splash_text">"遇见,原本就是一种最美好的情愫"</string>
+    <string name="back_text">"你真的要离开人家么?"</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="wish_count">"想看"</string>
+    <string name="reviews_count">"看过"</string>
+</resources>
