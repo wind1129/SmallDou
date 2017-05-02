@@ -4,7 +4,7 @@
 # 声明：
 本项目仅做学习交流使用，API数据内容所有权归原作公司所有，请勿用于其他用途
  
-# 预览图：
+# 预览图：(不是很清晰orz）
  ![image](https://github.com/wind1129/SmallDou/blob/master/preview/enter.gif)
  ![image](https://github.com/wind1129/SmallDou/blob/master/preview/content.gif)
 
@@ -20,4 +20,4 @@ Dagger2、RxJava、Retrofit2、Butterknife、Leakcanary、Glide
 # 关于我:
 Github:https://github.com/wind1129
 
-Email:wind1218@sina.cn
+Email:wind3767@163.com
