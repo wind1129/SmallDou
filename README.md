@@ -7,9 +7,10 @@
  ![image](https://github.com/wind1129/SmallDou/blob/master/preview/content.gif)
 
 主要使用的开源框架：
+
 Dagger2、RxJava、Retrofit2、Butterknife、Leakcanary、Glide
 
 关于我：
-Github:https://github.com/wind1129
 
+Github:https://github.com/wind1129
 Email:wind1218@sina.cn
